@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 235, 247, 0.993);
+}
+.head {
+    background-color: rgb(243, 9, 153);
+    height: 70px;
+}
+.main {
+    display: flex;
+    margin: 50px;
+}
+.main .boxleft {
+    flex-basis: 66%;
+    margin-right: 50px;
+    height: fit-content;
+}
+.main .boxright {
+    flex-basis: 34%;
+}
+.h1 .b1 {
+    width: 145px;
+    background-color:rgb(243, 9, 153);
+}
+.h1 .b2 {
+    width: 145px;
+    background-color:rgba(250, 131, 204, 0.993);
+}
+.h1 .b3 {
+    width: 145px;
+    background-color:rgba(250, 131, 204, 0.993);
+}
+.headle2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h1 {
+    display: flex;
+    width: 450px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 22px;
+ }
+ svg {
+    color: rgba(250, 131, 204, 0.993);
+ }
+ .hh1 .c1 {
+    width: 45px;
+    background-color:rgb(253, 193, 233);
+}
+.hh1 .c2 {
+    width: 45px;
+    background-color:rgb(253, 193, 233);
+}
+.hh1 .c3 {
+    width: 45px;
+    background-color:rgb(253, 193, 233);
+}
+ .headri2 {
+    display: flex;
+    justify-content: flex-end;
+ }
+ .hh1 {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    height: 22px;
+ }
+ .big1 {
+    background-color: rgb(243, 9, 153);
+    height: 300px;
+ }
+ .big2 {
+    background-color: rgb(252, 88, 184);
+    height: 300px;
+ }
+
+ .footer1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 24px;
+ }
+ .box .img {
+    background-color: rgba(250, 131, 204, 0.993);
+    width: 145px;
+    height: 145px;
+ }
+ .box p {
+    width: 145px;
+    font-size: 15px;
+    text-align: start;
+ }
+
+.center {
+    width: 100%;
+    height: 22px;
+    background-color: rgb(252, 88, 184);
+    margin-top: 24px;
+}
+ .line {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(252, 88, 184);
+    margin-top: 24px;
+}
+.box2 {
+    margin-top: 24px;
+    /* padding: 10px; */
+    overflow: hidden;
+}
+.img1 {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(250, 131, 204, 0.993);
+    float: left;
+    margin-right: 10px
+}
+.box2 p{
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+} 
+.p2 {
+    font-size: 15px;
+    margin: 3px;
+}
